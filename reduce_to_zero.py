@@ -1,4 +1,7 @@
 def min_operations_to_zero(n):
+    """
+    Find minimum number of operations required to add or subtract 2 raised to power k where k is a positive integer from the number to make it zero. 
+    """
     operations = 0
     while n > 0:
         if n & 1:  # n is odd i.e. last bit is 1 then we have to check if previous bit is 1 or 0
